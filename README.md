@@ -5,6 +5,8 @@ Every window sits side by side on one strip that scrolls past the edge of your s
 and you move along it with the trackpad, mouse or keyboard.
 
 ```sh
+brew tap butterflyformac/tap
+brew trust butterflyformac/tap   # newer Homebrew asks you to trust third-party taps
 brew install --cask butterflyformac/tap/butterfly
 ```
 

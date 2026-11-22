@@ -2,8 +2,7 @@ cask "butterfly" do
   version "1.22.4"
   sha256 "abe517a036c14843efc7630552f28ed18ebd044e0c501e6096020938ccbfb789"
 
-  url "https://github.com/butterflyformac/releases/releases/download/v#{version}/Butterfly-#{version}.zip",
-      verified: "github.com/butterflyformac/releases/"
+  url "https://github.com/butterflyformac/releases/releases/download/v#{version}/Butterfly-#{version}.zip"
   name "Butterfly for Mac"
   desc "Scrolling tiling window manager"
   homepage "https://butterflyformac.com/"
